@@ -1,0 +1,7 @@
+anthropic
+python-docx
+lxml
+fonttools
+pywebview
+pillow
+pyinstaller

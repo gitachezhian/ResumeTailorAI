@@ -1,0 +1,42 @@
+# ---- Personal documents (never push) ----
+Templates/
+Resume/
+Coverletters/
+Cover Letters/
+Coverletter/
+*.docx
+*.pdf
+~$*
+
+# Personal notes kept next to the project
+Portfolio and Password.*
+Device Mockup Studio.txt
+
+# ---- Secrets ----
+# The app stores your API key encrypted in %APPDATA%\ResumeTailorAI\config.json,
+# outside this folder. These patterns are a safety net in case keys ever land here.
+.env
+.env.*
+*.key
+config.json
+secrets.*
+
+# ---- Build output ----
+# Share the .exe through a GitHub Release instead of committing it.
+*.exe
+build/
+dist/
+*.spec
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- OS / editor ----
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
